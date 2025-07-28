@@ -47,8 +47,7 @@ cp app/backend/.env.example app/backend/.env
 Edite o arquivo `app/backend/.env`:
 ```env
 # MongoDB Configuration
-MONGODB_URI=mongodb://localhost:27017/teste-violet
-# Para MongoDB Atlas, use: mongodb+srv://usuario:senha@cluster.mongodb.net/teste-violet
+MONGODB_URI=mongodb+srv://usuario:senha@cluster.mongodb.net/teste-violet
 
 # Application Configuration
 PORT=3002
